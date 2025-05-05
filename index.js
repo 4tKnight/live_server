@@ -11,7 +11,7 @@ app.use(express.json());
 connectDB();
 
 //ROUTES
-//to be added later
+app.use("auth", require("./auth_route"))
 
 const PORT = process.env.PORT || 4000
 //SERVER
