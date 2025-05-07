@@ -5,7 +5,6 @@ const cors = require("cors");
 const corsOptions = require("./corsConfig");
 
 const app = express();
-//https://live-server-dio0.onrender.com
 
 //MIDDLEWARE
 app.use(express.json());

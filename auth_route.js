@@ -35,6 +35,7 @@ router.post("/create_account", async (req, res) => {
     }
 
 })
+module.exports = router;
 
 
 //login account
@@ -48,5 +49,3 @@ router.post("/create_account", async (req, res) => {
 
 //delete a user account
 
-
-module.exports = router;
